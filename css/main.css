@@ -171,7 +171,7 @@ Red: #945D5E
 
 /**** ARTWORK ****/
 
-.artwork.introduction { background-color: #945D5E; width: 30%;}
+.artwork.introduction { background-color: #945D5E; width: 30%; border-right: 3px solid #282828;}
 .artwork.showcase{width: 70%; position: relative;}
 .artwork.introduction .content { text-align: center; /*margin: 0 200px; */}
 .artwork.gallery:last-child { margin-bottom: 50px; }
@@ -179,7 +179,7 @@ Red: #945D5E
 
 /**** SOFTWARE ****/
 
-.software.introduction { background-color: #5C9D89; width: 30%; position: relative;}
+.software.introduction { background-color: #5C9D89; width: 30%; position: relative; border-left: 3px solid #282828;}
 .software.showcase {width: 70%;}
 .software.introduction .content { text-align: center; /*margin: 0 200px;*/}
 .software.gallery:last-child { margin-bottom: 50px; }
