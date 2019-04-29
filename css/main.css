@@ -101,17 +101,16 @@ textarea {
 
 #wrapper { width: 100%; }
 p { font-family: 'freight-neo-pro', sans-serif; color: #282828;}
-h2 { font-family: 'Playfair Display', serif; color: #282828; margin: 70px 200px 10px 200px; }
+h2 { font-family: 'Playfair Display', serif; color: #282828; /*margin: 70px 200px 10px 200px; */}
 h3 { font-family: 'cronos-pro-display', serif; color: #282828; }
 a { text-decoration: none; color: #282828;}
 a:hover { text-decoration: overline; }
 .flexbox { display: flex; }
-.showcase { width: 50%; position: relative; }
-.introduction { width: 50%; height: 100vh; }
 .margin-collapse { border: 1px solid transparent; box-sizing: border-box; }
 .content { text-align: left; }
-p.content { margin: 0 220px 20px 200px; }
-h3.content { margin: 70px 200px 0 200px; }
+.introduction {height: 100vh; }
+p.content { width: 90%; margin: auto;/*margin: 0 220px 20px 200px; */}
+h3.content { width: 90%; margin: auto; margin-top: 25px; text-align: center;/*margin: 70px 200px 0 200px;*/ }
 h2.heading { font-size: 60px;}
 .gallery { margin: 0 auto; text-align: center; }
 .showcase-nav {margin-top: 70%; }
@@ -140,7 +139,7 @@ nav {
 
 .presentation {
     height: 100vh;
-    background: #5A716A;
+    background: #5C9D89;
     text-align: center;
     color: #282828;
 }
@@ -163,22 +162,26 @@ h1.heading {
     
 }
 
+/*
+ORIGINAL COLOURS
+Blue: #5A716A
+Red: #945D5E
+*/
 
 /**** ARTWORK ****/
 
-.artwork.introduction { 
-    background-color: #945D5E; 
-}
-.artwork.introduction .content { text-align: center; margin: 0 200px; }
+.artwork.introduction { background-color: #945D5E; width: 30%;}
+.artwork.showcase{width: 70%; position: relative;}
+.artwork.introduction .content { text-align: center; /*margin: 0 200px; */}
 .artwork.gallery:last-child { margin-bottom: 50px; }
 
 
 /**** SOFTWARE ****/
 
-.software.introduction { background-color: #5A716A; }
-.software.introduction .content { text-align: center; margin: 0 200px;}
+.software.introduction { background-color: #5C9D89; width: 30%; position: relative;}
+.software.showcase {width: 70%;}
+.software.introduction .content { text-align: center; /*margin: 0 200px;*/}
 .software.gallery:last-child { margin-bottom: 50px; }
-
 
 /*** CONTACT INFORMATION ***/
 
