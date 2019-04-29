@@ -105,7 +105,7 @@ h2 { font-family: 'Playfair Display', serif; color: #282828; /*margin: 70px 200p
 h3 { font-family: 'cronos-pro-display', serif; color: #282828; }
 a { text-decoration: none; color: #282828;}
 a:hover { text-decoration: overline; }
-.flexbox { display: flex; }
+.flexbox { display: flex;}
 .margin-collapse { border: 1px solid transparent; box-sizing: border-box; }
 .content { text-align: left; }
 .introduction {height: 100vh; }
@@ -115,6 +115,7 @@ h2.heading { font-size: 60px;}
 .gallery { margin: 0 auto; text-align: center; }
 .showcase-nav {margin-top: 70%; }
 .mobile-displayed { display: none; }
+.top-border{border-style: solid; border-width: 3px 0 0 0 ; border-color:#282828;}
 
 .v-center {
     position: relative;
