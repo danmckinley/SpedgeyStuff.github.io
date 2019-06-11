@@ -1,187 +1,334 @@
 <!doctype html>
 
 <html class="no-js" lang="">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title></title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
 
-        <link rel="manifest" href="site.webmanifest">
-        <link rel="apple-touch-icon" href="icon.png">
-        <!-- Place favicon.ico in the root directory -->
-        <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
-        <link rel="icon" href="/favicon.ico" type="image/x-icon">
-        <link rel="stylesheet" href="css/normalize.css">
-        <link rel="stylesheet" href="css/main.css">
-        <link rel="stylesheet" href="css/responsive.css">
-        <link rel="stylesheet" href="https://use.typekit.net/emd7xws.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.3.5/jquery.fancybox.min.css" />
-        <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700" rel="stylesheet">
-    </head>
-    <body>
-        <!--[if lte IE 9]>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
+
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="apple-touch-icon" href="icon.png">
+    <!-- Place favicon.ico in the root directory -->
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="https://use.typekit.net/emd7xws.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.3.5/jquery.fancybox.min.css" />
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700" rel="stylesheet">
+</head>
+
+<body>
+    <!--[if lte IE 9]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
         <![endif]-->
-        <div id="wrapper">
-            <section class="presentation margin-collapse" id="top">
+    <div id="wrapper">
+        <section class="presentation margin-collapse" id="top">
+            <div class="v-center">
+                <h1 class="heading">Daniel McKinley</h1>
+                <p class="paragraph">Aspiring Game Developer</p>
+                <p class="information">A final year Computer Science with Games Technology Student with a passion for
+                    all things game related.</p>
+            </div> <!-- END OF CENTERED CONTENT -->
+
+            <nav id="main-nav">
+                <ul>
+                    <li><a href="#top">About</a></li> <span class="mobile-hidden">/</span> <br class="mobile-displayed">
+                    <li><a href="#awTrigger">Artwork</a></li> <span class="mobile-hidden">/</span> <br
+                        class="mobile-displayed">
+                    <li><a href="#swTrigger">Software</a></li> <span class="mobile-hidden">/</span> <br
+                        class="mobile-displayed">
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <a href="#awTrigger"><img src="img/arrow.png" class="arrow"></a>
+        </section>
+
+        <div class="software flexbox top-border">
+            <!--================================= START OF SOFTWARE FLEXBOX =================================-->
+            <section id="swTrigger" class="software showcase">
+                <section class="software gallery">
+                    <h3 class="content">Mock E-Commerce Website</h3>
+                    <p class="content">This website was made for my E-Commerce module, and was my first time building a
+                        (almost) complete website.
+                        It was made using HTML, CSS, and a local Apache server with a MySQL database to handle the
+                        product data.
+                        I used bootstrap to ensure it was mobile-friendly without having to write a load of media
+                        queries.</p>
+                    <a href="software/ecom1.jpg" data-fancybox="e-com-gallery"
+                        data-caption="Screenshot of my E-Commerce website"><img src="software/ecom1thumb.jpg"
+                            class="rectangular-img-med"></a><a href="software/ecom2.jpg" data-fancybox="e-com-gallery"
+                        data-caption="Screenshot of my E-Commerce website"><img src="software/ecom2thumb.jpg"
+                            class="rectangular-img-med"></a><br>
+                    <a href="software/ecom3.jpg" data-fancybox="e-com-gallery"
+                        data-caption="Screenshot of my E-Commerce website"><img src="software/ecom3thumb.jpg"
+                            class="square-img-med"></a><a href="software/ecom4.jpg" data-fancybox="e-com-gallery"
+                        data-caption="Screenshot of my E-Commerce website"><img src="software/ecom4thumb.jpg"
+                            class="square-img-med"></a>
+
+                    <h3 class="content">3D OpenGL Game</h3>
+                    <p class="content">This game was made as a part of my Advanced Games Technology module, where,
+                        starting with a basic template, we were required to implement a number of features and objects
+                        into the game. This included a unique camera technique (third person in my case), basic
+                        state-machine based AI, physics, collision detection and response, OpenGL primitive-based meshes
+                        as well as external meshes with proper textures and normals.</p>
+                    <a href="software/adv-games2.jpg" data-fancybox="adv-games-gallery"
+                        data-caption="Screenshot of my E-Commerce website"><img src="software/adv-games2.jpg"
+                            class="rectangular-img-med"></a>
+                    <a href="software/adv-games3.jpg" data-fancybox="adv-games-gallery"
+                        data-caption="Screenshot of my E-Commerce website"><img src="software/adv-games3.jpg"
+                            class="rectangular-img-med"></a>
+                    <a href="software/adv-games4.jpg" data-fancybox="adv-games-gallery"
+                        data-caption="Screenshot of my E-Commerce website"><img src="software/adv-games4.jpg"
+                            class="rectangular-img-med"></a>
+                    <a href="software/adv-games5.jpg" data-fancybox="adv-games-gallery"
+                        data-caption="Screenshot of my E-Commerce website"><img src="software/adv-games5.jpg"
+                            class="rectangular-img-med"></a>
+                    <a href="software/adv-games6.jpg" data-fancybox="adv-games-gallery"
+                        data-caption="Screenshot of my E-Commerce website"><img src="software/adv-games6.jpg"
+                            class="rectangular-img-med"></a>
+                    <a href="software/adv-games7.jpg" data-fancybox="adv-games-gallery"
+                        data-caption="Screenshot of my E-Commerce website"><img src="software/adv-games7.jpg"
+                            class="rectangular-img-med"></a>
+
+
+
+                    <!--TODO: take pixture of 2D OpenGL game-->
+
+                    <h3 class="content">2D Java Game</h3>
+                    <p class="content">This game was made as a part of my Programming in Java module in my first year of
+                        University. We followed making the template throug the lectures and eventually were tasked with
+                        creating a game with multiple levels, with physics based gameplay.</p>
+                    <a href="software/java-game1.jpg" data-fancybox
+                        data-caption="Screenshot of my E-Commerce website"><img src="software/java-game1.jpg"
+                            class="rectangular-img-med"></a>
+
+                    <h3 class="content">Haskell Outrun Animation</h3>
+                    <p class="content">I made this animation in Haskell for my Functional Programming module, using an
+                        animation library supplied by the lecturer.</p>
+                    <object class="rectangular-img-med" data="software/HaskellOutrunAnimation.svg" type="image/svg+xml">
+                        <img class="rectangular-img-med" src="HaskellOutrunAnimation.jpg" />
+                        <!-- Fallback if the browser doesn't support SVG -->
+                    </object>
+                </section> <!-- END OF SOFTWARE GALLERY -->
+            </section> <!-- END OF SOFTWARE SHOWCASE -->
+
+            <section id="swPinned" class="software introduction margin-collapse">
                 <div class="v-center">
-                    <h1 class="heading">Daniel McKinley</h1>
-                    <p class="paragraph">Aspiring Game Developer</p>
-                    <p class="information">A final year Computer Science with Games Technology Student with a passion for all things game related.</p>
+                    <h2 class="content heading">Software</h2>
+                    <p class="content">Here I have compiled the most noteworthy software projects I have completed. Most
+                        of them were developed as a part of my Computer Science with Games Technology course at City,
+                        University of London. There is more soon to come!
+                    </p>
                 </div> <!-- END OF CENTERED CONTENT -->
-                
-                <nav id="main-nav">
-                    <ul>
-                        <li><a href="#top">About</a></li> <span class="mobile-hidden">/</span> <br class="mobile-displayed">
-                            <li><a href="#awTrigger">Artwork</a></li> <span class="mobile-hidden">/</span> <br class="mobile-displayed">
-                            <li><a href="#swTrigger">Software</a></li> <span class="mobile-hidden">/</span> <br class="mobile-displayed">
-                            <li><a href="#contact">Contact</a></li>
-                    </ul>
-                </nav>
-                <a href="#awTrigger" ><img src="img/arrow.png" class="arrow"></a>
             </section>
-            
-            <div class="software flexbox top-border"> <!-- START OF SOFTWARE FLEXBOX -->
-                <section id="swTrigger" class="software showcase">
-                    <section class="software gallery">
-                        <h3 class="content">Haskell Outrun Animation</h3>
-                        <p class="content">I made this animation in Haskell for my Functional Programming module, using an animation library supplied by the lecturer.</p>
-                        <object class="rectangular-img-med" data="software/HaskellOutrunAnimation.svg" type="image/svg+xml">
-                            <img class="rectangular-img-med" src="HaskellOutrunAnimation.jpg"/> <!-- Fallback if the browser doesn't support SVG -->
-                        </object>
+        </div> <!-- END OF SOFTWARE FLEXBOX -->
 
-                         <h3 class="content">3D OpenGL Game</h3>
-                        <p class="content">Vestibulum a leo sed velit pretium tincidunt ut sed purus. Pellentesque egestas mauris quis lorem mollis porta et vel quam. In eget vulputate ex, nec vestibulum sapien. Sed faucibus nisl non eleifend tincidunt. Morbi at porta ante, quis congue est. Nunc tempus justo eu metus lobortis, eget molestie velit gravida. Phasellus sed nulla at risus dapibus feugiat id sit amet quam. Suspendisse accumsan et mauris a mollis. Praesent nec sodales orci. Aliquam erat volutpat.</p>
+        <div class="artwork flexbox top-border">
+            <!--================================= START OF ARTWORK FLEXBOX =================================-->
+            <section id="awPinned" class="artwork introduction margin-collapse" data-viewport-height="100">
+                <div class="v-center">
+                    <h2 class="content heading">Artwork</h2>
+                    <p class="content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent aliquet lorem
+                        fermentum ullamcorper venenatis. Mauris at felis a dolor interdum fringilla et ac nulla.
+                        Praesent nibh velit, bibendum quis molestie quis, lobortis non lorem. Integer justo urna,
+                        laoreet at magna ac, venenatis accumsan mi. Duis in dolor blandit, laoreet felis vel, semper
+                        nisl. Vestibulum interdum molestie felis, ac molestie lectus porttitor at. Ut porta dui id
+                        turpis ultricies, in malesuada sapien facilisis.</p>
+                </div> <!-- END OF CENTERED CONTENT -->
+            </section>
 
-                         <h3 class="content">2D OpenGL Game</h3>
-                        <p class="content">Vestibulum a leo sed velit pretium tincidunt ut sed purus. Pellentesque egestas mauris quis lorem mollis porta et vel quam. In eget vulputate ex, nec vestibulum sapien. Sed faucibus nisl non eleifend tincidunt. Morbi at porta ante, quis congue est. Nunc tempus justo eu metus lobortis, eget molestie velit gravida. Phasellus sed nulla at risus dapibus feugiat id sit amet quam. Suspendisse accumsan et mauris a mollis. Praesent nec sodales orci. Aliquam erat volutpat.</p>
+            <section id="awTrigger" class="artwork showcase">
+                <section class="artwork gallery">
+                    <h3 class="content">Loish Artist Response</h3>
+                    <p class="content">Vestibulum a leo sed velit pretium tincidunt ut sed purus.</p>
+                    <a href="artwork/portrait1.png" data-fancybox="loish-gallery"
+                        data-caption="Artist response following researching Loish."><img
+                            src="artwork/portrait1thumb.png" class="rectangular-img-med"></a>
 
-                        <h3 class="content">2D Java Game</h3>
-                        <p class="content">Vestibulum a leo sed velit pretium tincidunt ut sed purus. Pellentesque egestas mauris quis lorem mollis porta et vel quam. In eget vulputate ex, nec vestibulum sapien. Sed faucibus nisl non eleifend tincidunt. Morbi at porta ante, quis congue est. Nunc tempus justo eu metus lobortis, eget molestie velit gravida. Phasellus sed nulla at risus dapibus feugiat id sit amet quam. Suspendisse accumsan et mauris a mollis. Praesent nec sodales orci. Aliquam erat volutpat.</p>
+                    <h3 class="content">Jojo's Fanart</h3>
+                    <p class="content">Fanart of the Jojo's Bizarre Adventure character Josuke.</p>
+                    <a href="artwork/josuke.jpg" data-fancybox="reincarnation-gallery"
+                        data-caption="Fanart of the Jojo's Bizarre Adventure character Josuke."><img
+                            src="artwork/josuke-thumb.jpg" class="rectangular-img-med"></a>
 
-                         <h3 class="content">Mock E-Commerce Website</h3>
-                        <p class="content">This website was made for my E-Commerce module, and was my first time building a (almost) complete website.  I also used bootstrap to ensure it was mobile-friendly without having to write a load of media queries.</p>
-                        <a href="software/ecom1.jpg" data-fancybox="gallery" data-caption="Screenshot of my E-Commerce website"><img src="software/ecom1thumb.jpg" class="rectangular-img-med"></a><a href="software/ecom2.jpg" data-fancybox="gallery" data-caption="Screenshot of my E-Commerce website"><img src="software/ecom2thumb.jpg" class="rectangular-img-med"></a><br>
-                        <a href="software/ecom3.jpg" data-fancybox="gallery" data-caption="Screenshot of my E-Commerce website"><img src="software/ecom3thumb.jpg" class="square-img-med"></a><a href="software/ecom4.jpg" data-fancybox="gallery" data-caption="Screenshot of my E-Commerce website"><img src="software/ecom4thumb.jpg" class="square-img-med"></a>
+                    <h3 class="content">Reincarnation</h3>
+                    <p class="content">This work was produced as a part of my A-Level graphics course, where the theme I
+                        chose (from those given as a part of the exam) was reincarnation.
+                        I used this theme to explore the aesthetics surrounding different cultural interpretations of
+                        death and reincarnation.
+                        These were Mexico's Dias De Muertos, Ghanaian fantasy coffins, and paisley patterns along with
+                        Hinduism.
+                    </p>
+                    <a href="artwork/reincarnation-linework.png" data-fancybox="reincarnation-gallery"
+                        data-caption="A high school project finally starting to take shape after a time of research."><img
+                            src="artwork/reincarnation-linework.png" class="rectangular-img-med"></a>
+                    <a href="artwork/reincarnation-color.png" data-fancybox="reincarnation-gallery"
+                        data-caption="Final linework side to side with the inspiration of the drawing; primarily paisley patterns and foxes."><img
+                            src="artwork/reincarnation-color.png" class="rectangular-img-med"></a><br>
 
-                        <h3 class="content">Title</h3>
-                        <p class="content">Vestibulum a leo sed velit pretium tincidunt ut sed purus. Pellentesque egestas mauris quis lorem mollis porta et vel quam. In eget vulputate ex, nec vestibulum sapien. Sed faucibus nisl non eleifend tincidunt. Morbi at porta ante, quis congue est. Nunc tempus justo eu metus lobortis, eget molestie velit gravida. Phasellus sed nulla at risus dapibus feugiat id sit amet quam. Suspendisse accumsan et mauris a mollis. Praesent nec sodales orci. Aliquam erat volutpat.</p>
-                    </section> <!-- END OF SOFTWARE GALLERY -->
-                </section> <!-- END OF SOFTWARE SHOWCASE -->
-                
-                <section id="swPinned" class="software introduction margin-collapse">
-                    <div class="v-center">
-                        <h2 class="content heading">Software</h2>
-                        <p class="content">Here I have compiled the most noteworthy software projects I have completed. Most of them were developed as a part of my Computer Science with Games Technology course at City, University of London. There is more soon to come!
-                        </p>
-                    </div> <!-- END OF CENTERED CONTENT -->
-                </section>
-            </div> <!-- END OF SOFTWARE FLEXBOX -->
+                    <a href="artwork/ghana-linework.png" data-fancybox="reincarnation-gallery"
+                        data-caption="A high school project finally starting to take shape after a time of research."><img
+                            src="artwork/ghana-linework.png" class="rectangular-img-med"></a>
+                    <a href="artwork/ghana-color.png" data-fancybox="reincarnation-gallery"
+                        data-caption="Final linework side to side with the inspiration of the drawing; primarily paisley patterns and foxes."><img
+                            src="artwork/ghana-color.png" class="rectangular-img-med"></a><br>
 
-            <div class="artwork flexbox top-border"> <!-- START OF ARTWORK FLEXBOX -->
-                <section id="awPinned" class="artwork introduction margin-collapse" data-viewport-height="100">
-                    <div class="v-center">
-                        <h2 class="content heading">Artwork</h2>
-                        <p class="content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent aliquet lorem fermentum ullamcorper venenatis. Mauris at felis a dolor interdum fringilla et ac nulla. Praesent nibh velit, bibendum quis molestie quis, lobortis non lorem. Integer justo urna, laoreet at magna ac, venenatis accumsan mi. Duis in dolor blandit, laoreet felis vel, semper nisl. Vestibulum interdum molestie felis, ac molestie lectus porttitor at. Ut porta dui id turpis ultricies, in malesuada sapien facilisis.</p>
-                    </div> <!-- END OF CENTERED CONTENT -->
-                </section>
+                    <a href="artwork/sands_of_time-linework.png" data-fancybox="reincarnation-gallery"
+                        data-caption="A high school project finally starting to take shape after a time of research."><img
+                            src="artwork/sands_of_time-linework.png" class="rectangular-img-med"></a>
+                    <a href="artwork/sands_of_time-color.png" data-fancybox="reincarnation-gallery"
+                        data-caption="Final linework side to side with the inspiration of the drawing; primarily paisley patterns and foxes."><img
+                            src="artwork/sands_of_time-color.png" class="rectangular-img-med"></a><br>
 
-                <section id="awTrigger" class="artwork showcase">
-                    <section class="artwork gallery">
-                        <h3 class="content">Reincarnation</h3>
-                        <p class="content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent aliquet lorem fermentum ullamcorper venenatis. Mauris at felis a dolor interdum fringilla et ac nulla. Praesent nibh velit, bibendum quis molestie quis, lobortis non lorem. Integer justo urna, laoreet at magna ac, venenatis accumsan mi. Duis in dolor blandit, laoreet felis vel, semper nisl. Vestibulum interdum molestie felis, ac molestie lectus porttitor at. Ut porta dui id turpis ultricies, in malesuada sapien facilisis.</p>
-                        <a href="artwork/reincarnation-linework.png" data-fancybox="gallery" data-caption="A high school project finally starting to take shape after a time of research."><img src="artwork/reincarnation-linework.png" class="rectangular-img-sml"></a>
-                        <a href="artwork/reincarnation-color.png" data-fancybox="gallery" data-caption="Final linework side to side with the inspiration of the drawing; primarily paisley patterns and foxes."><img src="artwork/reincarnation-color.png" class="rectangular-img-sml"></a><br>
-                        
-                        <a href="artwork/ghana-linework.png" data-fancybox="gallery" data-caption="A high school project finally starting to take shape after a time of research."><img src="artwork/ghana-linework.png" class="rectangular-img-sml"></a>
-                        <a href="artwork/ghana-color.png" data-fancybox="gallery" data-caption="Final linework side to side with the inspiration of the drawing; primarily paisley patterns and foxes."><img src="artwork/ghana-color.png" class="rectangular-img-sml"></a><br>
-                        
-                        <a href="artwork/sands_of_time-linework.png" data-fancybox="gallery" data-caption="A high school project finally starting to take shape after a time of research."><img src="artwork/sands_of_time-linework.png" class="rectangular-img-sml"></a>
-                        <a href="artwork/sands_of_time-color.png" data-fancybox="gallery" data-caption="Final linework side to side with the inspiration of the drawing; primarily paisley patterns and foxes."><img src="artwork/sands_of_time-color.png" class="rectangular-img-sml"></a><br>
-    
-                        <h3 class="content">Loish Artist Response</h3>
-                        <p class="content">Vestibulum a leo sed velit pretium tincidunt ut sed purus.</p>
-                        <a href="artwork/portrait1.png" data-fancybox="gallery" data-caption="Artist response following researching Loish."><img src="artwork/portrait1thumb.png" class="rectangular-img-med"></a>
+                    <h3 class="content">Mock BBC Weather App Marketing</h3>
+                    <p class="content"> Produce for my A-Level graphics course, the theme of this module was "Cycles",
+                        and so I used weather as a theme throughout.For my final pieces, I used this theme to produce a
+                        mock BBC weather app's marketing material,namely some leaflets and a poster.
+                    </p>
+                    <a href="artwork/atmos-poster.png" data-fancybox="reincarnation-gallery"
+                        data-caption="Poster for the mock weather app."><img src="artwork/atmos-poster.png"
+                            class="rectangular-img-med"></a> </br>
+                    <a href="artwork/atmos-leaflet-1.png" data-fancybox="reincarnation-gallery"
+                        data-caption="Leaflet for the mock weather app."><img src="artwork/atmos-leaflet-1.png"
+                            class="rectangular-img-sml"></a>
+                    <a href="artwork/atmos-leaflet-2.png" data-fancybox="reincarnation-gallery"
+                        data-caption="Leaflet for the mock weather app."><img src="artwork/atmos-leaflet-2.png"
+                            class="rectangular-img-sml"></a>
+                    <a href="artwork/atmos-leaflet-3.png" data-fancybox="reincarnation-gallery"
+                        data-caption="Leaflet for the mock weather app."><img src="artwork/atmos-leaflet-3.png"
+                            class="rectangular-img-sml"></a>
 
-                         <h3 class="content">Creativity</h3>
-                        <p class="content">Vestibulum a leo sed velit pretium tincidunt ut sed purus. Pellentesque egestas mauris quis lorem mollis porta et vel quam. In eget vulputate ex, nec vestibulum sapien. Sed faucibus nisl non eleifend tincidunt. Morbi at porta ante, quis congue est.</p>
-                        <a href="img/watercolor.jpg" data-fancybox="gallery" data-caption="Source: https://www.pexels.com/photo/abstract-painting-935786/"><img src="img/watercolorthumb.jpg" class="square-img-sml"></a><a href="img/brushes.jpg" data-fancybox="gallery" data-caption="Source: https://www.pexels.com/photo/abstract-art-artist-artistic-262034/"><img src="img/brushesthumb.jpg" class="square-img-sml"></a><br>
-                        <a href="img/watercolor2.jpg" data-fancybox="gallery" data-caption="Source: https://www.pexels.com/photo/art-colorful-colourful-colors-19680/"><img src="img/watercolor2thumb.jpg" class="rectangular-img-med"></a><br>
-                        <a href="img/cactus.jpg" data-fancybox="gallery" data-caption="Source: https://www.pexels.com/photo/art-botanical-cactus-color-532566/"><img src="img/cactusthumb.jpg" class="rectangular-img-med"></a>
-                    </section> <!-- END OF ARTWORK GALLERY -->
-                </section> <!-- END OF ARTWORK SHOWCASE -->
-            </div> <!-- END OF ARTWORK FLEXBOX -->
-            
-            <section class="contact margin-collapse top-border" id="contact">
-                <h3 class="contact-heading">I'm available for work!</h3>
-                <p>Contact me through this form, email or by social media.</p>
-                <form method="post" name="emailform" action="acknowledge.php">
-                    <ul class="form-style-1">
-                        <li>
-                            <label>Full Name <span class="required">*</span></label><input type="text" name="fname" class="field-divided" placeholder="First" />&nbsp;<input type="text" name="lname" class="field-divided" placeholder="Last" />
-                        </li>
-                        <li>
-                            <label>Email <span class="required">*</span></label>
-                            <input type="email" name="email" class="field-long" />
-                        </li>
-                        <li>
-                            <label>Subject</label>
-                            <select name="subject" class="field-select">
+                    <h3 class="content">Satirical Posters</h3>
+                    <p class="content">Produced for my A-Level graphics course, the theme of this module was to "explore
+                        contradictions and present a creative statement".
+                        I looked at various satirical and non-satirical comics for inspiration, and tried to inject some
+                        (adolescent) politics into them.
+                    </p>
+                    <a href="artwork/opportunity.png" data-fancybox="reincarnation-gallery"
+                        data-caption="Satirical piece comparing the quality of private and public school in a time where equal opportunity is supposedly paramount."><img
+                            src="artwork/opportunity.png" class="rectangular-img-sml"></a>
+                    <a href="artwork/recycling.png" data-fancybox="reincarnation-gallery"
+                        data-caption="Satirical piece depicting a truck transporting trash for a landfill and the other transporting recycling materials, both producing a black poluting smog."><img
+                            src="artwork/recycling.png" class="rectangular-img-sml"></a>
+                    <a href="artwork/immigration.png" data-fancybox="reincarnation-gallery"
+                        data-caption="Satirical piece comparing criticising xenophobia."><img
+                            src="artwork/immigration.png" class="rectangular-img-sml"></a>
+
+
+                    <h3 class="content">Sketchdump</h3>
+                    <p class="content">A collection of smaller pieces made in free time or as a part of my A-Level
+                        graphics course. Click the image below to see the full gallery.</p>
+                    <a href="artwork/sketchdump/reincarnation.jpg" data-fancybox="sketchdump-gallery">
+                        <img src="artwork/sketchdump/reincarnation.jpg" class="rectangular-img-med" /> </a>
+                    <div style="display: none;">
+                        <a href="artwork/sketchdump/naeem-pen-and-ink.png" data-fancybox="sketchdump-gallery"
+                            data-thumb="artwork/sketchdump/naeem-pen-and-ink-thumb.png"></a>
+                        <a href="artwork/sketchdump/red1.jpg" data-fancybox="sketchdump-gallery"
+                            data-thumb="artwork/sketchdump/red1.jpg"></a>
+                        <a href="artwork/sketchdump/red2.jpg" data-fancybox="sketchdump-gallery"
+                            data-thumb="artwork/sketchdump/red2.jpg"></a>
+                        <a href="artwork/sketchdump/naeem-sketch1.png" data-fancybox="sketchdump-gallery"
+                            data-thumb="artwork/sketchdump/naeem-sketch1.png"></a>
+                        <a href="artwork/sketchdump/naeem-sketch2.png" data-fancybox="sketchdump-gallery"
+                            data-thumb="artwork/sketchdump/naeem-sketch2.png"></a>
+                        <a href="artwork/sketchdump/naeem-sketch3.png" data-fancybox="sketchdump-gallery"
+                            data-thumb="artwork/sketchdump/naeem-sketch3.png"></a>
+                        <a href="artwork/sketchdump/gohan.jpg" data-fancybox="sketchdump-gallery"
+                            data-thumb="artwork/sketchdump/gohan.jpg"></a>
+                        <a href="artwork/sketchdump/sonic.jpg" data-fancybox="sketchdump-gallery"
+                            data-thumb="artwork/sketchdump/sonic.jpg"></a>
+                        <a href="artwork/sketchdump/beanie.jpg" data-fancybox="sketchdump-gallery"
+                            data-thumb="artwork/sketchdump/beanie.jpg"></a>
+                        <a href="artwork/sketchdump/wintergirl.jpg" data-fancybox="sketchdump-gallery"
+                            data-thumb="artwork/sketchdump/wintergirl.jpg"></a>
+                        <a href="artwork/sketchdump/eyenose.jpg" data-fancybox="sketchdump-gallery"
+                            data-thumb="artwork/sketchdump/eyenose.jpg"></a>
+                        <a href="artwork/sketchdump/ponytail.jpg" data-fancybox="sketchdump-gallery"
+                            data-thumb="artwork/sketchdump/ponytail.jpg"></a>
+                    </div>
+                </section> <!-- END OF ARTWORK GALLERY -->
+            </section> <!-- END OF ARTWORK SHOWCASE -->
+        </div> <!-- END OF ARTWORK FLEXBOX -->
+
+        <section class="contact margin-collapse top-border" id="contact">
+            <h3 class="contact-heading">I'm available for work!</h3>
+            <p>Contact me through this form, email or by social media.</p>
+            <form method="post" name="emailform" action="acknowledge.php">
+                <ul class="form-style-1">
+                    <li>
+                        <label>Full Name <span class="required">*</span></label><input type="text" name="fname"
+                            class="field-divided" placeholder="First" />&nbsp;<input type="text" name="lname"
+                            class="field-divided" placeholder="Last" />
+                    </li>
+                    <li>
+                        <label>Email <span class="required">*</span></label>
+                        <input type="email" name="email" class="field-long" />
+                    </li>
+                    <li>
+                        <label>Subject</label>
+                        <select name="subject" class="field-select">
                             <option value="General Questions">General</option>
                             <option value="Work">Work/Commissions</option>
-                            </select>
-                        </li>
-                        <li>
-                            <label>Your Message <span class="required">*</span></label>
-                            <textarea name="message" id="field5" class="field-long field-textarea"></textarea>
-                        </li>
-                        <li>
-                            <input type="submit" value="Submit" name="send"/>
-                        </li>
-                    </ul>
-                </form>
-                
-                <footer>
-                    <a href="https://github.com/SpedgeyStuff"><img class="social-media" src="img/github.png" title="Github" alt="Link to my Github profile"></a>
-                    <!--LINKEDIN <div class="LI-profile-badge"  data-version="v1" data-size="medium" data-locale="en_US" data-type="horizontal" data-theme="light" data-vanity="daniel-mckinley-0ab2a6114"><a class="LI-simple-link" href='https://uk.linkedin.com/in/daniel-mckinley-0ab2a6114?trk=profile-badge'>Daniel McKinley</a></div>-->
-                    <a href="https://www.linkedin.com/in/daniel-mckinley-0ab2a6114/"><img class="social-media" src="img/linkedin.png" title="LinkedIn" alt="Link to my LinkedIn profile"></a>
-                    <!--
+                        </select>
+                    </li>
+                    <li>
+                        <label>Your Message <span class="required">*</span></label>
+                        <textarea name="message" id="field5" class="field-long field-textarea"></textarea>
+                    </li>
+                    <li>
+                        <input type="submit" value="Submit" name="send" />
+                    </li>
+                </ul>
+            </form>
+
+            <footer>
+                <a href="https://github.com/SpedgeyStuff"><img class="social-media" src="img/github.png" title="Github"
+                        alt="Link to my Github profile"></a>
+                <!--LINKEDIN <div class="LI-profile-badge"  data-version="v1" data-size="medium" data-locale="en_US" data-type="horizontal" data-theme="light" data-vanity="daniel-mckinley-0ab2a6114"><a class="LI-simple-link" href='https://uk.linkedin.com/in/daniel-mckinley-0ab2a6114?trk=profile-badge'>Daniel McKinley</a></div>-->
+                <a href="https://www.linkedin.com/in/daniel-mckinley-0ab2a6114/"><img class="social-media"
+                        src="img/linkedin.png" title="LinkedIn" alt="Link to my LinkedIn profile"></a>
+                <!--
                     <a href="https://plus.google.com/"><img class="social-media" src="img/plus.png" title="Google+" alt="Link to my Google+ profile"></a>
                     <a href="https://www.instagram.com/"><img class="social-media" src="img/instagram.png" title="Instagram" alt="Link to my Instagram profile"></a>
                     -->
-                    <!--
+                <!--
                     <nav class="contact-nav">
                         <ul>
                             <li><a href="#top">Back to top</a></li>
                         </ul>
                     </nav>
                     -->
-                </footer>
-            </section>
-        </div> <!-- END OF WRAPPER -->
-        
-        <!--<script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script> LINKEDIN PROFILE SCRIPT -->
-        <script src="js/vendor/modernizr-3.5.0.min.js"></script>
-        <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
-        <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.2.1.min.js"><\/script>')</script>
-<!--        <script src="magnific-popup/jquery.magnific-popup.js"></script>-->
-        <script src="js/plugins.js"></script>
-        <script src="js/main.js"></script>
-        <!-- Core JS file -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.3.5/jquery.fancybox.min.js"></script>
+            </footer>
+        </section>
+    </div> <!-- END OF WRAPPER -->
 
-<!-- UI JS file -->
-<script src="js/photoswipe-ui-default.min.js"></script> 
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.min.js"></script>
+    <!--<script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script> LINKEDIN PROFILE SCRIPT -->
+    <script src="js/vendor/modernizr-3.5.0.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"
+        integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.2.1.min.js"><\/script>')</script>
+    <!--        <script src="magnific-popup/jquery.magnific-popup.js"></script>-->
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+    <!-- Core JS file -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.3.5/jquery.fancybox.min.js"></script>
+
+    <!-- UI JS file -->
+    <script src="js/photoswipe-ui-default.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.min.js"></script>
 
 
-        <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
-        <script>
-            window.ga=function(){ga.q.push(arguments)};ga.q=[];ga.l=+new Date;
-            ga('create','UA-XXXXX-Y','auto');ga('send','pageview')
-        </script>
-        <script src="https://www.google-analytics.com/analytics.js" async defer></script>
-    </body>
+    <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+    <script>
+        window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
+        ga('create', 'UA-XXXXX-Y', 'auto'); ga('send', 'pageview')
+    </script>
+    <script src="https://www.google-analytics.com/analytics.js" async defer></script>
+</body>
+
 </html>
