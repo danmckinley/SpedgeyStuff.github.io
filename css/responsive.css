@@ -43,13 +43,13 @@
     .artwork.introduction .content { text-align: center; margin: 0 10%; }
     .software.introduction .content { text-align: center; margin: 0 10%; }
     footer { height: 70vh; position: relative; }
-    .contact { height: 100vh; }
+    .contact {  }
     h1.heading { font-size: 50px; }
     .presentation .paragraph { font-size: 15px; margin-top: 10px;}
     .presentation .information { max-width: 300px; }
     img { max-width: 200px; }
     .social-media { margin-top: 30px; }
-    .contact p { margin: 0 50px; }
+    .contact p { }
     .mobile-displayed { display: block; }
     .mobile-hidden { display: none;  }
 }

@@ -180,9 +180,12 @@ Red: #945D5E
 /**** SOFTWARE ****/
 
 .software.introduction { background-color: #5C9D89; width: 30%; position: relative; border-left: 3px solid #282828;}
-.software.showcase {width: 70%;}
+.software.showcase {width: 70%; position: relative;}
 .software.introduction .content { text-align: center; /*margin: 0 200px;*/}
 .software.gallery:last-child { margin-bottom: 50px; }
+
+/**** BOTH SECTIONS ****/
+p.content{max-width: 80%;}
 
 /*** CONTACT INFORMATION ***/
 
@@ -190,7 +193,7 @@ Red: #945D5E
 .contact-nav a { color: #945D5E; }
 
 .contact {
-    height: 100vh;
+    height: 10vh;
     background: #945D5E;
     text-align: center;
     color: #282828;
@@ -198,24 +201,18 @@ Red: #945D5E
 }
 
 footer {
-    height: 30vh;
     width: 100%;
     background-color: #282828; 
     position: absolute;
-    bottom: -0.1%;
 }
 
 .social-media {
     top: 50%;
     transform: translateY(-40%);
+    -ms-transform: translateY(-50%);
     width: 128px;
     margin-top: 100px;
 }
-
-.contact-heading {
-    margin-top: 50px;
-}
-
 
 /**** IMAGES ****/
 
