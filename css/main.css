@@ -140,7 +140,7 @@ nav {
 
 .presentation {
     height: 100vh;
-    background: #5C9D89;
+    background: radial-gradient(circle, rgba(246,114,128,1) 0%, rgba(246,122,135,1) 100%)  ;
     text-align: center;
     color: #282828;
 }
@@ -171,7 +171,7 @@ Red: #945D5E
 
 /**** ARTWORK ****/
 
-.artwork.introduction { background-color: #945D5E; width: 30%; border-right: 3px solid #282828;}
+.artwork.introduction { background-color: #ffc5a1; width: 30%; border-right: 3px solid #282828;}
 .artwork.showcase{width: 70%; position: relative;}
 .artwork.introduction .content { text-align: center; /*margin: 0 200px; */}
 .artwork.gallery:last-child { margin-bottom: 50px; }
@@ -179,7 +179,7 @@ Red: #945D5E
 
 /**** SOFTWARE ****/
 
-.software.introduction { background-color: #5C9D89; width: 30%; position: relative; border-left: 3px solid #282828;}
+.software.introduction { background-color: #a7d7c5; width: 30%; position: relative; border-left: 3px solid #282828;}
 .software.showcase {width: 70%; position: relative;}
 .software.introduction .content { text-align: center; /*margin: 0 200px;*/}
 .software.gallery:last-child { margin-bottom: 50px; }
@@ -190,11 +190,11 @@ p.content{max-width: 80%;}
 /*** CONTACT INFORMATION ***/
 
 .contact-nav { margin-top: 10vh; position: relative; }
-.contact-nav a { color: #945D5E; }
+.contact-nav a { color: #5c8d89;  }
 
 .contact {
     height: 10vh;
-    background: #945D5E;
+    background: #69a7a1;
     text-align: center;
     color: #282828;
     position: relative;

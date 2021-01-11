@@ -1,11 +1,11 @@
 @media (max-width: 1300px) {
-    .flexbox { flex-direction: column; }
+    .flexbox { flex-direction: row; }
     #swPinned { order: 1; }
     #swTrigger { order: 2; }
     .showcase { width: 100%; }
     .introduction { width: 100%; }
     .showcase-nav {margin-top: 60vh; }
-    p.content { margin: 0 20% 2% 20%; }
+    p.content { margin: 0 5% 2% 5%; }
     h3.content { margin: 5% 20% 0 20%; }
     h1.heading { font-size: 70px; }
     .presentation .paragraph { font-size: 20px; margin-top: 10px;}
@@ -13,8 +13,8 @@
     nav { margin-top: 50vh; }
     .social-media { margin-top: 5%; }
     .contact-nav { margin-top: 10px;}
-    footer { height: 30vh; position: relative; width: 100%; }
-    .contact { height: 70vh; }
+    .contact { height: 30vh; }
+    .software.introduction {border-right: 3px solid #282828;border-left:none;}
 }
 
 @media (max-width: 812px) {
@@ -28,8 +28,7 @@
     .presentation .paragraph { font-size: 17px; margin-top: 10px;}
     .presentation .information { max-width: 400px; }
     img { max-width: 200px; }
-    .contact { height: 60vh; }
-    footer { height: 30vh; }
+    .contact { height: 30vh; }
 }
 
 @media (max-width: 412px ) {
@@ -42,14 +41,13 @@
     .contact-nav { margin-top: 40px; position: relative; }
     .artwork.introduction .content { text-align: center; margin: 0 10%; }
     .software.introduction .content { text-align: center; margin: 0 10%; }
-    footer { height: 70vh; position: relative; }
-    .contact {  }
+    .contact { height: 30vh; }
     h1.heading { font-size: 50px; }
     .presentation .paragraph { font-size: 15px; margin-top: 10px;}
     .presentation .information { max-width: 300px; }
     img { max-width: 200px; }
     .social-media { margin-top: 30px; }
-    .contact p { }
+    .contact p { margin: 0 50px; }
     .mobile-displayed { display: block; }
     .mobile-hidden { display: none;  }
 }
